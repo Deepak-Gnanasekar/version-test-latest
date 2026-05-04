@@ -17,6 +17,15 @@ presentation:
   - column: low
     data_type: Number
     order_by: ASC
+  - column: close
+    data_type: Number
+    order_by: ASC
+  - column: volume
+    data_type: Number
+    order_by: ASC
+  - column: dividends
+    data_type: Number
+    order_by: ASC
 reference: []
 source:
   materialization: TABLE
