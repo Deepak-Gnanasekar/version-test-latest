@@ -1,0 +1,18 @@
+model:
+  schema_name: ver
+  table_name: model
+presentation:
+  hidden_columns:
+  - '*'
+  sort:
+  - column: date
+    data_type: Time
+    order_by: ASC
+reference: []
+source:
+  materialization: TABLE
+  schema_name: ver
+  table_name: aapl_stock_ml_features
+source_model: null
+transform: {}
+transform_order: []
