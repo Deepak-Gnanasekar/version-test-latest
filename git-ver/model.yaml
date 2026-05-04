@@ -11,6 +11,12 @@ presentation:
   - column: open
     data_type: Number
     order_by: ASC
+  - column: high
+    data_type: Number
+    order_by: ASC
+  - column: low
+    data_type: Number
+    order_by: ASC
 reference: []
 source:
   materialization: TABLE
